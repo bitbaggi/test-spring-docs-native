@@ -15,7 +15,6 @@ public class TestResource {
     @Operation
     @GetMapping(path = "test")
     public ResponseEntity<String> test() {
-        System.out.println();
         return ResponseEntity.ok("Test");
     }
 }
